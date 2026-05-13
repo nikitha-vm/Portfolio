@@ -14,16 +14,20 @@ export default function Footer() {
     </div>
 
     <div className="flex flex-wrap gap-4 text-sm text-[#7b2d4b]">
-      <a href="mailto:nikithavishnumolakala@gmail.com" className="hover:opacity-70">
-        Email
+      <a
+        href="mailto:nikithavishnumolakala@gmail.com"
+        className="hover:opacity-70"
+      >
+         nikithavishnumolakala@gmail.com
       </a>
+
       <a href="https://www.linkedin.com/in/nikithavishnumolakala13/" className="hover:opacity-70">
         LinkedIn
       </a>
       <a href="https://github.com/nikitha-vm" className="hover:opacity-70">
         GitHub
       </a>
-      <a href="public/resume.pdf" className="hover:opacity-70">
+      <a href="/resume.pdf" className="hover:opacity-70">
         Resume
       </a>
     </div>
