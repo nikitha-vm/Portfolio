@@ -62,7 +62,7 @@ export default function ProjectDetail() {
      ))}
      </div>
      )}
-     
+
     <div className="mt-8 flex flex-wrap gap-3">
       {["Research", "UX", "Data", "Systems"].map((tag) => (
         <span
@@ -88,6 +88,33 @@ export default function ProjectDetail() {
   </div>
 </section>
 
+      {project.publication && (
+  <section className="mt-8 rounded-[2rem] border border-[#7b2d4b]/10 bg-[#fff7fa] p-8 shadow-lg">
+    <p className="text-sm uppercase tracking-[0.2em] text-[#7b2d4b]">
+      Publication
+    </p>
+
+    <h2 className="mt-4 text-2xl font-medium tracking-tight text-[#2b1f26]">
+      {project.publication.title}
+    </h2>
+
+    <p className="mt-3 leading-7 text-[#5f4b55]">
+      {project.publication.venue}
+    </p>
+
+    {project.publication.link && (
+      <a
+        href={project.publication.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-6 inline-flex rounded-full bg-gradient-to-r from-[#7b2d4b] to-[#9d4d6d] px-5 py-3 text-sm font-medium !text-white shadow-md transition hover:-translate-y-1"
+      >
+        
+        View Paper ↗
+      </a>
+    )}
+  </section>
+)}
         <section className="mt-8 grid gap-6 md:grid-cols-3">
   <div className="rounded-[2rem] border border-[#7b2d4b]/10 bg-[#fff7fa] p-7 shadow-lg">
     <p className="text-sm uppercase tracking-[0.2em] text-[#7b2d4b]">

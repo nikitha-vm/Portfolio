@@ -112,57 +112,66 @@ const projects = [
     "Future improvements could include transformer-based semantic analysis, FinBERT integration, and risk classification using contextual embeddings.",
 },
 
-  {
-  id: "traffic-pattern-prediction",
+ {
+  id: "url-security-assessment",
 
   number: "03",
 
-  title: "Traffic Intelligence",
+  title: "URL Security Assessment",
 
-  category: "Machine Learning • Predictive Analytics",
+  category: "Machine Learning • Cybersecurity",
 
   description:
-    "A machine learning system for analyzing and predicting traffic volume patterns using temporal, weather, and environmental features.",
+    "A machine learning classification system designed to identify malicious and benign URLs using feature extraction and predictive modeling techniques.",
 
   accent: "from-[#5f4b55] to-[#d48ba3]",
 
-  path: "/projects/traffic-pattern-prediction",
+  path: "/projects/url-security-assessment",
 
   overview:
-    "A predictive analytics project exploring how machine learning models can identify traffic volume trends using weather conditions, time-based patterns, and seasonal behavior.",
+    "A cybersecurity-focused machine learning project exploring how predictive models can classify malicious URLs using structural and textual URL features.",
+
 
   problem:
-    "Traffic systems generate large amounts of time-sensitive data influenced by weather, holidays, and temporal patterns. The project focused on predicting traffic behavior and identifying meaningful trends through machine learning models.",
+    "Malicious URLs are widely used in phishing, malware distribution, and online attacks. Manual identification is inefficient at scale, creating a need for automated detection systems using machine learning techniques.",
 
   role:
-    "Data analyst and ML developer responsible for preprocessing, feature engineering, model evaluation, and visualization.",
+    "ML developer and researcher responsible for preprocessing, feature engineering, model training, evaluation, and analysis.",
 
   process:
-    "Prepared and cleaned traffic datasets, explored temporal trends, engineered predictive features, trained machine learning models, and evaluated performance using analytical metrics and visualizations.",
+    "Prepared labeled URL datasets, engineered structural and lexical URL features, trained multiple machine learning models, and evaluated classification performance using metrics such as accuracy, precision, recall, and F1-score.",
 
   features: [
-    "Traffic trend prediction",
-    "Temporal feature engineering",
-    "Weather-based analysis",
-    "Model comparison workflows",
-    "Data visualization and evaluation",
+    "Malicious URL classification",
+    "Lexical and structural feature extraction",
+    "Machine learning model comparison",
+    "Suspicious pattern detection",
+    "Predictive cybersecurity analysis",
   ],
 
   outcomes:
-    "Identified meaningful traffic behavior patterns and demonstrated how predictive models can support traffic forecasting and data-driven transportation analysis.",
+    "Developed a predictive classification workflow for distinguishing between benign and malicious URLs using engineered URL-based features and supervised machine learning models.",
 
   futureWork:
-    "Future improvements could include real-time forecasting, explainable AI techniques, and integration with live transportation datasets.",
+    "Future improvements could include real-time browser integration, transformer-based URL representation learning, and adaptive threat detection for emerging attack patterns.",
 
   tech: [
     "Python",
-    "Pandas",
     "Scikit-learn",
-    "Machine Learning",
-    "Data Visualization",
-    "Predictive Modeling",
+    "LightGBM",
+    "XGBoost",
+    "Feature Engineering",
+    "Cybersecurity",
+    "Classification Metrics",
   ],
-},
+
+  publication: {
+  title: "URL Security Assessment Using Machine Learning",
+  venue: "International Journal of Scientific Research in Engineering and Management (IJSREM)",
+  link: "https://ijsrem.com/download/url-security-assessment-using-machine-learning",
+   },
+} 
+ ,
 
   {
   id: "tastes-and-trails",

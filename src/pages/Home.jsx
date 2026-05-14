@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import ProjectCard from "../components/ProjectCard";
-
+import Experience from "../components/Experience";
 import projects from "../data/Projects";
 import profilePic from "../assets/profile_pic.jpeg";
 
@@ -168,7 +168,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <Experience />
       {/* FOOTER */}
       <Footer />
     </main>
